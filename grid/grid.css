@@ -1,0 +1,11 @@
+.contenedor {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr; /*tamaño de cada columna*/
+    /*fr: sistema de medida por fraciones del total, se puede combinar con otras unidades de medida.
+    Si se utiliza en altura, dando valor de altura en px al contenedor del grid */
+    grid-template-rows:  150px 300px ; /*tamaño de cada filas*/
+    gap:20px;
+    }
+    .contenedor div{
+            background-color: cornflowerblue;
+    }

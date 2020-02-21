@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=ç, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ejercicio Cambios de colores</title>
+
+    <script>
+    function morado(){
+        cab1.style.color="#8d69ac";
+    }
+    function naranja(){
+        cab1.style.color="#f9960c";
+    }
+
+    function fondoRojo(){
+        document.bgColor="#ba231e";
+    }
+    function fondoVerde(){
+        document.bgColor="#94c73e";
+    }
+    function fondoAzul(){
+        document.bgColor="#5ebacb";
+    }
+    </script>
+
+</head>
+<body>
+
+    <h1 id="cab1" onmouseover="morado();" onmouseout="naranja();">Titulo que cambia de color</h1>
+    <input type="button" value="Rojo" onclick="fondoRojo();">
+    <input type="button" value="Verde" onclick="fondoVerde();">
+    <input type="button" value="Azul" onclick="fondoAzul();">
+</body>
+</html>

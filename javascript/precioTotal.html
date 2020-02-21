@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+
+    <title>Precio Total</title>
+    <script>
+    //
+// a continuación se muestra un mensaje
+alert("Empezamos");
+
+var numero = prompt("Introduce un número entero");
+
+function calculaPrecioTotal(precio, porcentajeImpuestos) {
+  var gastosEnvio = 10;
+  var precioConImpuestos = (1 + porcentajeImpuestos/100) * precio;
+  var precioTotal = precioConImpuestos + gastosEnvio;
+  return precioTotal.toFixed(2);
+}
+
+var precioTotal = calculaPrecioTotal(23.34, 16);
+
+
+alert("precioTotal");
+    </script>
+
+</head>
+<body>
+
+
+
+</body>
+</html>

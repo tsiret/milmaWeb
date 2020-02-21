@@ -1,0 +1,45 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+body {
+    background: #e9e9e9;
+    color:#000;
+    font-family:  'Roboto' , sans serif;
+}
+
+.contenedor {
+    width:500px;
+    height: 200px;
+    border:10px solid #2c3e50;
+    margin: 20px;
+    padding: 10px;
+    background: #fff;
+
+    display: flex;
+    flex-flow: row wrap; /* es el resumen de direction y wrap */
+    /* 
+    flex-direction:
+        row = filas 
+        row-reverse = filas con orden invertido
+        column = columnas 
+        column-reverse = columnas con orden invertido 
+    flex-wrap:
+        wrap = con salto de linea
+        no-wrap = sin salto de linea, se ajusta al contendor siempre (se crea solo una linea)
+        wrap-reverse =  salto de linea en orden invertido
+
+    */
+   justify-content: 
+
+
+
+}
+.elemento{
+    color: #fff;
+    margin:5px;
+    width:50px;
+    background: #e67e22;
+    text-align: center;
+}

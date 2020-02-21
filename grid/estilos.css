@@ -1,0 +1,43 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+body {
+background: #eee;
+color:#000;
+font-family:  'Roboto' , sans serif;
+}
+
+.header h1 {
+font-size: 50px;
+text-align:center;
+padding: 20px 0;
+}
+
+.menu p {
+    color: #900000;
+    font-size: 18px;
+    text-align: center;
+    margin: 40px auto; 
+    text-transform: uppercase;
+}
+a {text-decoration: none; font-weight: bold; color:cadetblue;}
+a:hover {background-color: cornsilk; }
+.contenedor {
+    width:90%;
+    max-width:1000px;
+    border:10px solid #000;
+    margin: auto;
+    line-height: 50px;
+    text-align: center;
+    background-color: cornsilk;
+
+}
+.contenedor div {
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+            background-color: cornflowerblue;
+    
+}

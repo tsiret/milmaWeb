@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=ç, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ejercicio Amigos</title>
+    <style>
+        
+        .boton{padding:16px;  height:48px; width:220px; text-align: center;}
+    
+    </style>
+    <script>
+        var amigos=["Carlos", "Cesar", "Alex", ""];
+        document.write (amigos[0]);
+        amigos[3] = "Manuel";
+        
+    </script>
+
+</head>
+<body>
+    <div class="ejercicioA">
+        <h1>ejercicio Cambiar color de fondo</h1>
+        <input class="boton" type="button" value="Gris" onclick="cambiarFondo('grey');">
+        <input class="boton" type="button" value="Rojo" onclick="cambiarFondo('red');">
+        <input class="boton" type="button" value="Azul" onclick="cambiarFondo('blue');">
+    </div>
+    <div class="ejercicioB">
+            <h1>Fondo del color favorito del usuario</h1>
+            <input class="boton" type="button" value="Gris" onclick="colorUsuario('tucolor');">
+    </div>
+    <div class="ejercicioC">
+            <h1>Cambio Fondo y texto</h1>
+            <input class="boton" type="button" value="Marron y blanco" onclick="cambiarColores('brown', 'white');">
+            <input class="boton" type="button" value="Amarillo y negro" onclick="cambiarColores('yellow', 'black');">
+
+        </div>
+</body>
+</html>

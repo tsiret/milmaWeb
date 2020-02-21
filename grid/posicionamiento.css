@@ -1,0 +1,14 @@
+.contenedor {
+    display: grid;
+    gap:20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;/*repeat (4, 1fr); repite el mismo tamaño (1fr) para cada columna, que seran 6 en total*/
+    grid-template-rows: 1fr 1fr 1fr 1fr;/* repeat (4, 1fr);  tamaño de cada filas*/
+}
+
+ .contenedor .item {
+    background-color: #ff8000; 
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    }
